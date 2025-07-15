@@ -1,9 +1,13 @@
+# ----------------------------
 # Python
+# ----------------------------
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
+
+# Build artifacts
 build/
 develop-eggs/
 dist/
@@ -21,58 +25,80 @@ wheels/
 *.egg
 MANIFEST
 
-# Virtual Environment
+# ----------------------------
+# Virtual Environments
+# ----------------------------
 venv/
 env/
 ENV/
 env.bak/
 venv.bak/
 
-# IDE
+# ----------------------------
+# IDEs and Editors
+# ----------------------------
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
 
-# OS
+# ----------------------------
+# OS Files
+# ----------------------------
 .DS_Store
 Thumbs.db
 
+# ----------------------------
 # Streamlit
+# ----------------------------
 .streamlit/secrets.toml
 
-# Temporary files
+# ----------------------------
+# Secrets and Keys
+# ----------------------------
+.env
+*.key
+secrets.toml
+
+# ----------------------------
+# Logs and Temp Files
+# ----------------------------
+*.log
+logs/
 *.tmp
 *.temp
 temp/
 tmp/
 
-# Logs
-*.log
-logs/
-
-# API Keys (keep these secret!)
-.env
-*.key
-secrets.toml
-
-# Data files (if you don't want to commit them)
+# ----------------------------
+# Uploaded / Processed Files
+# ----------------------------
 data/
 uploads/
 *.csv
 *.pdf
 *.docx
-*.txt
 
+# ----------------------------
 # Jupyter Notebooks
+# ----------------------------
 .ipynb_checkpoints/
 *.ipynb
 
-# Testing
+# ----------------------------
+# Test and Coverage
+# ----------------------------
 .pytest_cache/
 .coverage
 htmlcov/
 
+# ----------------------------
 # Documentation
+# ----------------------------
 docs/_build/
+
+# ----------------------------
+# Allowlist
+# ----------------------------
+!requirements.txt
