@@ -59,6 +59,8 @@ fastReruns = true
 [mapbox]
 # Mapbox token (if needed for maps)
 # token = "your_mapbox_token"
+HUGGINGFACEHUB_API_TOKEN = "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"
+
 
 [deprecation]
 # Deprecation warnings
